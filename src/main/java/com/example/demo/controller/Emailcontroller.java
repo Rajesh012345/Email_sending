@@ -20,7 +20,7 @@ public class Emailcontroller {
 	@Autowired
 	 EmailService emailservice;
 	
-	
+	// email sending to postman
 	@PostMapping("/simplemailsend")
 	public Response sendmail(@RequestBody Email email) {         //for text only
 	
