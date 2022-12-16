@@ -19,6 +19,7 @@ public class Emailcontroller {
 	
 	@Autowired
 	 EmailService emailservice;
+	//
 	
 	
 	@PostMapping("/simplemailsend")
